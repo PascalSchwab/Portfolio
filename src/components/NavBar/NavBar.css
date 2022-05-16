@@ -1,0 +1,21 @@
+#navbar{
+    width: 60px;
+    height: 100%;
+    background-color: red;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: 0.2s ease-in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    #navbar .items{
+        width: 40px;
+        height: 40px;
+        background-color: blue;
+    }
+    #navbar:hover{
+        width: 100px;     
+    }

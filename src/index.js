@@ -1,0 +1,15 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import {App} from "./components/App/App";
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+//Right Mobile
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
