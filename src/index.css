@@ -1,11 +1,8 @@
 html, body {
   margin: 0;
   user-select: none;
-  /* overflow: hidden; */
-  overflow-x: hidden;
-  -ms-overflow-style: none;
   scrollbar-width: none;
-  width: 100vw;
-  height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
